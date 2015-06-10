@@ -1,0 +1,27 @@
+{
+  "name": "flugvaktin",
+  "version": "0.0.1",
+  "description": "Subscribe to offers from Flugfélag Íslands",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha __tests__",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugihlynsson/flugvaktin.git"
+  },
+  "author": "Hugi Hlynsson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugihlynsson/flugvaktin/issues"
+  },
+  "homepage": "https://github.com/hugihlynsson/flugvaktin#readme",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "request": "^2.57.0"
+  },
+  "devDependencies": {
+    "eslint": "^0.22.1"
+  }
+}

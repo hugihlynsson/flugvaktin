@@ -1,0 +1,30 @@
+{
+  "env": {
+    "node": true,
+    "mocha": true
+  },
+  "ecmaFeatures": {
+    "blockBindings": true,
+    "classes": true,
+    "templateStrings": true
+  },
+  "rules": {
+    "comma-dangle": [2, "always-multiline"],
+    "no-alert": 0,
+    "no-else-return": 1,
+    "strict": [2, "global"],
+    "brace-style": [1, "1tbs"],
+    "comma-style": [1, "last"],
+    "no-lonely-if": 1,
+    "no-var": 2,
+    "no-multi-spaces": [1, { "exceptions": { "VariableDeclarator": true } }],
+    "no-mixed-requires": 2,
+    "quotes": [1, "single", "avoid-escape"],
+    "space-before-function-parentheses": [1, "never"],
+    "space-after-keywords": [1, "always"],
+    "space-before-blocks": [1, "always"],
+    "space-in-brackets": [1, "never"],
+    "space-in-parens": [1, "never"],
+    "spaced-line-comment": [1, "always"]
+  }
+}
