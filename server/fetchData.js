@@ -3,7 +3,6 @@
 const request = require('request');
 
 const fetchData = function() {
-  console.log('Fetching data');
   return new Promise(function(resolve, reject) {
     const url = 'https://www.flugfelag.is/nettilbod?departureAirport=RKV&destinationAirport=AEY&fareclasslimitations=U,E,S,T,T1,T2';
     request.get({url: url}, function(err, res, body) {
