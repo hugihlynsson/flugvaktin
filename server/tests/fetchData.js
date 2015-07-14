@@ -8,7 +8,9 @@ describe('fetchData', function() {
   it('should be a function', function() {
     assert.equal(typeof fetchData, 'function');
   });
-  it('should return a promise', function() {
-    return fetchData();
+  it('should return a promise', function(data) {
+    fetchData().then(function() {
+      data();
+    });
   });
 });
