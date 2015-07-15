@@ -22,6 +22,7 @@ const emailNewOffers = require('./server/emailNewOffers');
       console.trace(err.stack);
     })
     .then(function() {
+      // Run again after 4 minutes and 0-60 seconds
       setTimeout(circle, Math.round(1000 * 60 * 4 + Math.random() * 60 * 1000));
     });
 })();
