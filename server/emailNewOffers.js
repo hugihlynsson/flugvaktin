@@ -26,13 +26,13 @@ module.exports = function emailNewOffers(offers) {
       `;
     }).join('');
     return new Promise(function(resolve, reject) {
-      transporter.sendMail(mailOptions, function(error, info) {
+      transporter.sendMail(mailOptions, function(error) {
         if (error) {
           reject(new Error(error));
         }
-        console.log('Send mail', info);
         resolve(offers);
       });
     });
   }
+  return offers;
 };
