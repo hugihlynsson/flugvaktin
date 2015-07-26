@@ -6,6 +6,13 @@ Vöktunarþjónusta fyrir nettilboð hjá Flugfélags Íslands.
 ## Tilgangur:
 Að fljúga innanlands er dýrt en það er hægt að spara með því að ná nettilboði. Þau eru aftur á móti mjög óaðgengileg þar sem þau koma á tilviljandi tímum á vefslóð sem erfitt er að finna. Flugvaktin sér um að láta þig vita þegar tilboðið sem þú ert að leyta kemur inn.
 
+## Keyrsla
+```
+npm install
+npm start
+```
+Ný tilboð eru sótt á 4 mín + (0-60) sec fresti. Til að senda email þurfa `FLUGVAKTIN_EMAIL` og `FLUGVAKTIN_EMAIL` umhverfisbreyturnar að vera settar á og vera réttar fyrir Gmail aðgang.
+
 ## Lýsing:
 Vefapp þar sem notandi getur séð núverandi tilboð Flugélags íslands og valið flugleið og tímabil til að vakta. Þetta gæti t.d. verið Akureyri -> Reykjavík Sunnudaginn 7. Júní á undir 12000 kr. Ef nýtt tilboð kemur inn sem uppfyllir þau skilyrði sem notandinn valdi fær hann tilkynningu um það með tölvupósti. Þetta eykur líkurnar taksvert að notandinn geti nýtt sér tilboðið.
 
